@@ -14,7 +14,7 @@ safe: true
 timezone: Europe/London
 lsi: false
 highlighter: rouge
-permalink: /blog/:year/:month/:title
+permalink: /news/:year/:month/:title
 
 exclude:
   - compile.sh
@@ -54,3 +54,21 @@ defaults:
       path: "localgovcamp"
     values:
       section: "localgovcamp"
+      twitter_username: "localgovcamp"
+  -
+    scope:
+      path: "democracy"
+    values:
+      section: "localdemocracybytes"
+      twitter_username: "LDBytes"
+  -
+    scope:
+      path: "makers"
+    values:
+      section: "localgovmakers"
+      twitter_username: "LGMakers"
+  -
+    scope:
+      path: "voice"
+    values:
+      section: "localgovdigitalvoice"
