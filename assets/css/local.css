@@ -12,3 +12,10 @@ body {
     background-color: #34ab49;
     color: #fff;
 }
+
+
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #828282; }
+
+
+.post-comment-count { color: #4caf50; }
