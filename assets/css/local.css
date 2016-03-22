@@ -5,12 +5,26 @@ body {
 .navbar-brand {
     height: auto;
 }
+.navbar-brand > img {
+    max-height: 70px;
+}
+.navbar-header .icon-bar {
+    background-color: #6b7770;
+}
+.jumbotron {
+    background-color: #6b7770;
+}
+
+
 .localgovcamp body {
     border-top-color: #34ab49;
 }
 .localgovcamp .jumbotron {
     background-color: #34ab49;
     color: #fff;
+}
+.localgovcamp .navbar-header .icon-bar {
+    background-color: #34ab49;
 }
 
 
