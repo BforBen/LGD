@@ -2,7 +2,7 @@
 title: LocalGov Digital
 description: >
   
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/LGD/" # the subpath of your site, e.g. /blog/
 url: https://localgovdigital.github.io # the base hostname & protocol for your site
 twitter_username: LocalGovDigital
 github_username:  LocalGovDigital
