@@ -48,6 +48,7 @@ defaults:
       path: ""
     values:
       section: "localgovdigital"
+      layout: page
   -
     scope:
       path: "localgovcamp"
