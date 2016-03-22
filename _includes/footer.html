@@ -34,12 +34,14 @@
         {% endif %}
       </div>
       <div class="col-lg-3 col-md-5 col-md-offset-1">
-        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/SurreyDS" data-widget-id="690080838554402818">Tweets by @SurreyDS</a>
+
       </div>
     </div>
   </div>
 </footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="/scripts/sds.js"></script>
+<script src="{{ "scripts/lgd.js" | prepend: site.baseurl }}"></script>
+{% if site.disqus_shortname %}
 <script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
+{% endif %}
