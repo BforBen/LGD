@@ -1,0 +1,55 @@
+# Site settings
+title: LocalGov Digital
+description: >
+  
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://localgovdigital.github.io # the base hostname & protocol for your site
+twitter_username: LocalGovDigital
+github_username:  LocalGovDigital
+disqus_shortname: localgovdigital
+analytics : 
+
+# Build settings
+safe: true
+timezone: Europe/London
+lsi: false
+highlighter: rouge
+permalink: /blog/:year/:month/:title
+
+exclude:
+  - compile.sh
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - lint.go
+  - README.md
+  - tools
+  - vendor
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: ''
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      section: "localgovdigital"
+  -
+    scope:
+      path: "localgovcamp"
+    values:
+      section: "localgovcamp"

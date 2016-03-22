@@ -1,0 +1,14 @@
+body {
+    border-top: 10px solid #6b7770;
+    font-family: Oxygen, sans-serif;
+}
+.navbar-brand {
+    height: auto;
+}
+.localgovcamp body {
+    border-top-color: #34ab49;
+}
+.localgovcamp .jumbotron {
+    background-color: #34ab49;
+    color: #fff;
+}
