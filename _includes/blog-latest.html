@@ -1,4 +1,4 @@
-{% for post in site.categories.[page.section] limit:5 %}
+{% for post in site.categories[page.section] limit:5 %}
 <div>
     <h2>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -8,9 +8,9 @@
     <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
 </div>
 {% endfor %}
-{% if site.categories.[page.section].size > 5 %}
+<!--{% if site.categories[page.section].size > 5 %}
 <p><a href="/blog/" class="btn btn-link">Find more blog posts...</a></p>
 {% endif %}
-{% if site.categories.[page.section].size = 0 %}
+{% if site.categories[page.section].size = 0 %}
 <p>No news.</p>
-{% endif %}
+{% endif %}-->
