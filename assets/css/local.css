@@ -8,6 +8,7 @@ body {
 }
 .navbar-brand > img {
     max-height: 70px;
+    max-width: 100%;
 }
 .navbar-header .icon-bar {
     background-color: #6b7770;
