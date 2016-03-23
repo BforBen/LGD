@@ -34,6 +34,39 @@ body {
     background-color: #34ab49;
 }
 
+.localdemocracybytes body {
+    border-top-color: #d32f2f;
+}
+.localdemocracybytes .jumbotron {
+    background-color: #d32f2f;
+    color: #fff;
+}
+.localdemocracybytes .navbar-header .icon-bar {
+    background-color: #d32f2f;
+}
+
+.localgovmakers body {
+    border-top-color: #428bca;
+}
+.localgovmakers .jumbotron {
+    background-color: #428bca;
+    color: #fff;
+}
+.localgovmakers .navbar-header .icon-bar {
+    background-color: #428bca;
+}
+
+.localgovdigitalvoice body {
+    border-top-color: #5e35b1;
+}
+.localgovdigitalvoice .jumbotron {
+    background-color: #5e35b1;
+    color: #fff;
+}
+.localgovdigitalvoice .navbar-header .icon-bar {
+    background-color: #5e35b1;
+}
+
 
 .icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
 .icon > svg path { fill: #828282; }
