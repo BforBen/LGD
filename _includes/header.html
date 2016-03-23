@@ -15,13 +15,19 @@
 				<ul class="nav navbar-nav navbar-right" role="tablist">
 					{% if page.section != 'localgovdigital' %}
                     <li role="presentation"><a href="{{ site.baseurl }}/" class="localgovdigital">LocalGov Digital</a></li>
-                    			{% endif %}
+                    {% endif %}
 					{% if page.section != 'localgovcamp' %}
                     <li role="presentation"><a href="{{ site.baseurl }}/localgovcamp/" class="localgovcamp">LocalGovCamp</a></li>
-                    			{% endif %}
+                    {% endif %}
+					{% if page.section != 'localdemocracybytes' %}
                     <li role="presentation"><a href="{{ site.baseurl }}/democracy/" class="localdemocracybytes">Local Democracy Bytes</a></li>
+                    {% endif %}
+					{% if page.section != 'localgovmakers' %}
                     <li role="presentation"><a href="{{ site.baseurl }}/makers/" class="localgovmakers">LocalGov Makers</a></li>
+                    {% endif %}
+					{% if page.section != 'localgovdigitalvoice' %}
                     <li role="presentation" class="hide"><a href="{{ site.baseurl }}/voice/" class="localgovdigitalvoice">LocalGov Digital Voice</a></li>
+                    {% endif %}
 				</ul>
 			</div>
         </div>
